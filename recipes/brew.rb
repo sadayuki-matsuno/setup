@@ -28,7 +28,7 @@ end
 
 # Add Repository
 node["brew"]["add_repositories"].each do |repo|
-  execute "Add Repository" do
+  execute "Add " + repo do
     command "brew tap #{repo}"
     not_if "brew tap | grep -q '#{repo}'"
   end
@@ -36,7 +36,7 @@ end
 
 # Install bin packages
 node["brew"]["install_packages"].each do |package|
-  execute "Install bin packages" do
+  execute "Install " + package  do
     command "brew install #{package}"
     not_if "brew list | grep -q #{package}"
   end
@@ -44,20 +44,10 @@ end
 
 # Install apps
 node["brew"]["install_apps"].each do |app|
-  execute "Install apps" do
+  execute "Install " + app do
     command "brew cask install #{app} --appdir=\"/Applications\""
     not_if "brew cask list | grep -q #{app}"
   end
-end
-
-# Setup alfred
-execute "Setup alfred" do
-  command "brew cask alfred link"
-end
-
-execute "Setup oh-my-zsh" do
-  command 'sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"'
-  not_if "test $HOME/.oh-my-zsh"
 end
 
 execute "Setup neobundle" do

@@ -14,6 +14,7 @@ brew:
     - sanemat/font
 
   install_packages:
+    - the_silver_searcher
     - brew-cask
     - coreutils
     - findutils
@@ -37,55 +38,32 @@ brew:
     - jq
     - peco
     - ctags
-    - z
     - rbenv
     - ruby-build
-    - go
-    - peco
     - opencv
-    - docker
-    - boot2docker
     - htop-osx
     - mercurial
     - ssh-copy-id
-    - ack
     - mongodb
-    - macvim
     - watch
-    - --vim-powerline ricty
     - gotags
     - httpie
 
   install_apps:
-    - atom
     - alfred
     - google-chrome
     - iterm2
-    - skype
     - slack
-    - virtualbox
-    - vagrant
-    - vagrant-manager
     - google-japanese-ime
-    - github
-    - dropbox
     - xtrafinder
     - appcleaner
     - caffeine
-    - firefox
     - sourcetree
-    - clamxav
-    - firefoxdeveloperedition-ja
-    - opera
-    - google-drive
     - lastfm
     - kitematic
     - recordit
     - robomongo
-    - yed
     - coteditor
     - karabiner
     - nmap
     - xquartz
-    - chromecast
-    - evernote
