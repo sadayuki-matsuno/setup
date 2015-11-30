@@ -28,7 +28,9 @@ $ ruby -e \"$(curl -fsSL #{BREW_INSTALL_URL})\"
 ```
 
 because this itamae script can not install brew.
+
 brew requires <Enter> action when comfirming installation.
+
 but I do not know how to avoid it's action.
 
 * run
