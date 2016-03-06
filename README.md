@@ -24,7 +24,7 @@ $ itamae local --dry-run -y nodes/local.yml recipes/brew.rb
 you have to install brew first using below.
 
 ```
-$ ruby -e \"$(curl -fsSL #{BREW_INSTALL_URL})\"
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 because this itamae script can not install brew.
