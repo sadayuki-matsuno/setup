@@ -21,6 +21,8 @@ brew:
     - bash
     - vim
     - tmux
+    # pbcopy
+    - reattach-to-user-namespace
     - git
     - mercurial
     - bzr
