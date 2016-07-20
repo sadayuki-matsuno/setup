@@ -24,6 +24,7 @@ brew:
     - git
     - mercurial
     - bzr
+    - svn
     - tig
     - ghq
     - wget
