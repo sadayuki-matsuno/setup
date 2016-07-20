@@ -9,13 +9,12 @@ brew:
     - motemen/ghq
     - caskroom/cask
     - starhoshi/starhoshicask
-    - peco/peco
     - homebrew/science
     - sanemat/font
 
   install_packages:
-    - the_silver_searcher
     - brew-cask
+    - the_silver_searcher
     - coreutils
     - findutils
     - zsh
@@ -23,16 +22,15 @@ brew:
     - vim
     - tmux
     - git
-    - hub
+    - mercurial
+    - bzr
     - tig
     - ghq
-    - imagemagick
     - wget
     - rsync
     - curl
     - tree
     - openssl
-    - libyaml
     - readline
     - markdown
     - jq
@@ -42,13 +40,11 @@ brew:
     - ruby-build
     - opencv
     - htop-osx
-    - mercurial
     - ssh-copy-id
-    - mongodb
     - watch
     - gotags
     - httpie
-    - the_silver_searcher
+    - pyenv
 
   install_apps:
     # lancher app
@@ -83,3 +79,12 @@ brew:
     - amethyst
     # view animated gif
     - animated-gif-quicklook
+    # customize your desktop with great flexibility
+    - geektool
+    - unity
+    - robomongo
+    - google-web-designer
+    - gitbook-editor
+    - gitter
+    - xbench
+    - fontstand
