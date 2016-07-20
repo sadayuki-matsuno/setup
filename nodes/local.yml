@@ -51,15 +51,35 @@ brew:
     - the_silver_searcher
 
   install_apps:
+    # lancher app
     - alfred
     - google-chrome
-    - iterm2
-    - slack
-    - google-japanese-ime
     - appcleaner
-    - kitematic
-    - recordit
+    # security soft
+    - avast
+    # simple editor
     - coteditor
+    # programing code refarence
+    - dash
+    # mac native docker
+    - docker
+    # keybind mapper
     - karabiner
-    - nmap
-    - xquartz
+    - slack
+    - virtualbox
+    - iterm2
+    # graph editor
+    - yed
+    - 1password
+    # markdown editor
+    - abricotine
+    # move and git tool
+    - recordit
+    # photo editor
+    - acorn
+    # Video, Audio and Images converter
+    - adapter
+    # Tiling window manager for OS X along the lines of xmonad and i3.
+    - amethyst
+    # view animated gif
+    - animated-gif-quicklook
