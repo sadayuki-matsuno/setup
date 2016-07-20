@@ -22,7 +22,7 @@ end
 
 # Install brew
 execute "Install brew" do
-  command "ruby -e \"$(curl -fsSL #{BREW_INSTALL_URL})\""
+  command "echo '\n' | ruby -e \"$(curl -fsSL #{BREW_INSTALL_URL})\""
   not_if "test $(which brew)"
 end
 

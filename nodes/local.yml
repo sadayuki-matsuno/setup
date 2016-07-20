@@ -65,7 +65,8 @@ brew:
     - virtualbox
     - iterm2
     # graph editor
-    - yed
+    # can not install yed.
+    # - yed
     - 1password
     # markdown editor
     - abricotine

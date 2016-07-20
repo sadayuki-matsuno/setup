@@ -19,24 +19,14 @@ $ bundle install
 $ itamae local --dry-run -y nodes/local.yml recipes/brew.rb
 ```
 
-* before run
-
-you have to install brew first using below.
-
-```
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-because this itamae script can not install brew.
-
-brew requires <Enter> action when comfirming installation.
-
-but I do not know how to avoid it's action.
-
 * run
 
 ```
 $ itamae local -y nodes/local.yml recipes/brew.rb
 ```
 
+## CATION
 
+Once you run this itame, ruby version will be changed.
+
+So, you have to the same actions as you did first, if you run this itamae once more.
