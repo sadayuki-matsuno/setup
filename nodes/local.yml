@@ -18,6 +18,7 @@ brew:
     - coreutils
     - findutils
     - zsh
+    - fish
     - bash
     - vim
     - tmux
@@ -66,13 +67,11 @@ brew:
     - karabiner
     - slack
     - virtualbox
+    - visual-studio-code
     - iterm2
     # graph editor
     # can not install yed.
     # - yed
-    - 1password
-    # markdown editor
-    - abricotine
     # move and git tool
     - recordit
     # photo editor
@@ -83,8 +82,6 @@ brew:
     - amethyst
     # view animated gif
     - animated-gif-quicklook
-    # customize your desktop with great flexibility
-    - geektool
     - unity
     - robomongo
     - google-web-designer
