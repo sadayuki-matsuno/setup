@@ -1,5 +1,8 @@
 # mac-itamae-setup
 
+## Other Setups 
+
+see [Wiki](https://github.com/sadayuki-matsuno/mac-itamae-setup/wiki)
 
 ## INSTALLATION
 
