@@ -11,7 +11,7 @@ brew:
     - sanemat/font
 
   install_packages:
-    - brew-cask
+    - caskroom/cask/brew-cask
     - the_silver_searcher
     - coreutils
     - findutils
