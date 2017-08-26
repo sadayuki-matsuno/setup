@@ -90,3 +90,4 @@ brew:
     - xbench
     - fontstand
     - dbeaver-community
+    - lastpass
