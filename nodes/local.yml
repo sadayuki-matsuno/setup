@@ -21,6 +21,7 @@ brew:
     - fish
     - bash
     - vim
+    - neovim/neovim/neovim
     - tmux
     # pbcopy
     - reattach-to-user-namespace
@@ -90,4 +91,3 @@ brew:
     - xbench
     - fontstand
     - dbeaver-community
-    - lastpass
