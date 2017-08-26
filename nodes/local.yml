@@ -89,3 +89,4 @@ brew:
     - gitter
     - xbench
     - fontstand
+    - dbeaver-community
