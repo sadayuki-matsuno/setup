@@ -52,10 +52,9 @@ brew:
   install_apps:
     # lancher app
     - alfred
-    - google-chrome
     - appcleaner
     # security soft
-    - avast
+    - avast-mac-security
     # simple editor
     - coteditor
     # programing code refarence
