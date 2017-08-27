@@ -48,6 +48,7 @@ brew:
     - gotags
     - httpie
     - pyenv
+    - cmake
 
   install_apps:
     - appcleaner
