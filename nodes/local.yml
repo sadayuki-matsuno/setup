@@ -49,6 +49,7 @@ brew:
     - httpie
     - pyenv
     - cmake
+    - awscli
 
   install_apps:
     - appcleaner
