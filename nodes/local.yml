@@ -2,12 +2,12 @@ brew:
   enable_update: false
   enable_upgrade: false
   add_repositories:
-    - homebrew/dupes
-    - homebrew/versions
-    - homebrew/binary
+#    - homebrew/dupes
+#    - homebrew/versions
+#    - homebrew/binary
     - caskroom/cask
     - starhoshi/starhoshicask
-    - homebrew/science
+#    - homebrew/science
     - sanemat/font
 
   install_packages:
@@ -19,7 +19,7 @@ brew:
     - fish
     - bash
     - vim
-    - neovim/neovim/neovim
+    - neovim
     - tmux
     # pbcopy
     - reattach-to-user-namespace
@@ -54,17 +54,17 @@ brew:
   install_apps:
     - appcleaner
     # security soft
-    - avast-mac-security
+    # - avast-mac-security
     # simple editor
     - coteditor
     # programing code refarence
     - dash
     # mac native docker
     - docker
-    - slack
-    - virtualbox
+    # - slack
+    # - virtualbox
     - visual-studio-code
-    - iterm2
+    #- iterm2
     # graph editor
     # can not install yed.
     # - yed
@@ -77,12 +77,7 @@ brew:
     # Tiling window manager for OS X along the lines of xmonad and i3.
     - amethyst
     # view animated gif
-    - animated-gif-quicklook
     - unity
-    - robomongo
-    - google-web-designer
     - gitbook-editor
     - gitter
-    - xbench
-    - fontstand
     - dbeaver-community
