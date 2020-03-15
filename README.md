@@ -1,8 +1,24 @@
-# mac-itamae-setup
+# mac-setup
 
-## Other Setups 
+## Settings
 
-see [Wiki](https://github.com/sadayuki-matsuno/mac-itamae-setup/wiki)
+- energy
+
+`settings` -> `energy`
+
+- keyboard (caps to ctrl)
+
+`settings` -> `keyboard` -> `modification key`
+
+- keyboard (en <-> ja switch shortcut)
+
+http://bl6.jp/dev/mac/os-x-el-capitan-command-space-from-control-space/
+
+## Alfread
+
+```
+$ git clone https://github.com/sadayuki-matsuno/alfread.git
+```
 
 ## INSTALLATION
 
