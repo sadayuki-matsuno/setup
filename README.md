@@ -2,10 +2,6 @@
 
 ## Settings
 
-- energy
-
-`settings` -> `energy`
-
 - keyboard (caps to ctrl)
 
 `settings` -> `keyboard` -> `modification key`
