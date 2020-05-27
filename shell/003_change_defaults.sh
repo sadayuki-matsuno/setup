@@ -26,6 +26,9 @@ defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # 検索をデフォルトでカレントディレクトリ以下にする
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+# vscodeのキーリピート有効化
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
 
 
 
