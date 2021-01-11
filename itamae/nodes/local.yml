@@ -81,3 +81,5 @@ brew:
     # - gitbook-editor
     # - gitter
     - dbeaver-community
+    # http://blog.livedoor.jp/fdaigo/rokuga
+    - background-music
