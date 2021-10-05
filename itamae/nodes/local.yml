@@ -12,6 +12,7 @@ brew:
 
   install_packages:
 #    - caskroom/cask/brew-cask
+    - koekeishiya/formulae/yabai
     - the_silver_searcher
     - coreutils
     - findutils
@@ -52,7 +53,9 @@ brew:
     - awscli
 
   install_apps:
-    - appcleaner
+    - slack
+    - alfred
+    # - appcleaner
     # security soft
     # - avast-mac-security
     # simple editor
@@ -75,11 +78,11 @@ brew:
     # Video, Audio and Images converter
     # - adapter
     # Tiling window manager for OS X along the lines of xmonad and i3.
-    - amethyst
+    # - amethyst
     # view animated gif
-    - unity
+    # - unity
     # - gitbook-editor
     # - gitter
     - dbeaver-community
     # http://blog.livedoor.jp/fdaigo/rokuga
-    - background-music
+    # - background-music
