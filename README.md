@@ -2,10 +2,10 @@
 
 ## Settings
 
-- launch terminal
-- install brew from [web](https://brew.sh/index_ja)
-- install git `brew install git`
-- clone this repository
+1. launch terminal
+1. install brew from [web](https://brew.sh/index_ja)
+1. install git `brew install git`
+1. clone this repository `git clone https://github.com/sadayuki-matsuno/setup`
 
 
 - keyboard (caps to ctrl)
