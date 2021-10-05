@@ -51,6 +51,7 @@ brew:
     - pyenv
     - cmake
     - awscli
+    - gh
 
   install_apps:
     - slack
