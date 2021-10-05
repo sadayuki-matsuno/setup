@@ -2,6 +2,12 @@
 
 ## Settings
 
+- launch terminal
+- install brew from [web](https://brew.sh/index_ja)
+- install git `brew install git`
+- clone this repository
+
+
 - keyboard (caps to ctrl)
 
 `settings` -> `keyboard` -> `modification key`
